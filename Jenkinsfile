@@ -19,7 +19,7 @@
         steps{
          sh   'mvn package'
         }
-    }
+          }
 
 
     }
