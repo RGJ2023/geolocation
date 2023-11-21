@@ -3,7 +3,7 @@
   pollSCM('* * * * *')
     }
    agent {
-        docker { image 'adoptopenjdk/maven-openjdk11'} 
+        docker { image 'maven:ibmjava'} 
    }
     tools {
   maven 'M2_HOME'
